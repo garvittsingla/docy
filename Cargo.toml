@@ -8,3 +8,8 @@ repository = "https://github.com/yourusername/docy"
 
 [dependencies]
 open = "5.3.6"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"

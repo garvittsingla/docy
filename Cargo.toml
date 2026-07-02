@@ -1,0 +1,10 @@
+[package]
+name = "docy"
+version = "0.1.0"
+edition = "2021"
+description = "A fast CLI tool to open language documentation based on the current directory."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/docy"
+
+[dependencies]
+open = "5.3.6"
